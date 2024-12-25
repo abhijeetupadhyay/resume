@@ -5,17 +5,15 @@
     <script type="text/javascript">
         // to get the current date and time at page load
       var currentdate = new Date(); 
-      var datetime = "Last Sync: " + currentdate.getDate() + "/"
+      var datetime = "Last Synced at: " + currentdate.getDate() + "/"
       + (currentdate.getMonth()+1)  + "/" 
-      + currentdate.getFullYear() + " @ "  
+      + currentdate.getFullYear() + " "  
       + currentdate.getHours() + ":"  
       + currentdate.getMinutes() + ":" 
       + currentdate.getSeconds();
         // page value is made on the basis of time
-      var pageColor = "#" 
-      + currentdate.getHours() 
-      + currentdate.getMinutes() 
-      + currentdate.getSeconds();
+      var pageColor = "#000000" ;
+    
 
       function changeBackground(color) {
         document.body.style.background = color;
@@ -39,6 +37,7 @@
     </script>
   </head>
   <body>
+  <p id ="time" class="text">.</p>
     <div>
       <a class="text" href="https://www.linkedin.com/in/abhijeet-upadhyay-976203a5/">
         Linked In
@@ -55,11 +54,17 @@
       <a class="text" href="https://stackoverflow.com/users/5448259/abhijeet-upadhyay">
         Stack Overflow
       </a>
+      |
+      <a class="text" href="https://medium.com/@abhijeet_upadhyay">
+        Medium
+      </a>
     </div>
-    <div class="text">Hello,</br></div>
-    <div class="text">I am a Java proficient, <a  class="text" href="https://www.credly.com/badges/9cc0e85e-3f80-43d1-93ec-6b67668f15fd">AWS Certified</a> Software Engineer with a Masters in Computer Science from BITS Pilani. Currently employed as Software Engineer with Pegasystems.</div>
-    <p id ="time" class="text">.</p>
-    <p class="text">Click on below link to download Resume:<p>
+	<br/>
+	<br/>
+	<br/>
+    <div class="text">Hello,</br></br></div>
+    <div class="text">I am a Software Engineer with 7+ years of experience in building scalable microservices and cloud-based solutions with proven expertise in Java, Spring Boot, and Kubernetes. I have hands-on experience in Azure and <a  class="text" href="https://www.credly.com/badges/9cc0e85e-3f80-43d1-93ec-6b67668f15fd">AWS environments</a>. I am proficient in designing technical architectures and delivering innovative solutions for banking and enterprise clients. I have strong background and experience in Agile methodologies and cross-functional team collaboration.</div>
+    
       <a href="ABHIJEET%27s%20Resume.pdf" class="text" download>
         <h1 class="text" >Resume</h1>
       </a>
